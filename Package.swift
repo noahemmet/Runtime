@@ -8,11 +8,11 @@ let package = Package(
             name: "Runtime",
             targets: ["Runtime"]),
         ],
-    dependencies: [],
+    dependencies: [.package(path: "./cruntime")],
     targets: [
         .target(
             name: "Runtime",
-            dependencies: [],
+            dependencies: ["cruntime"],
             path: "Runtime"),
         .testTarget(
             name: "RuntimeTests",
