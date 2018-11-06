@@ -1,4 +1,3 @@
 module cruntime {
-    header "cruntime.h"
     link "cruntime"
 }
