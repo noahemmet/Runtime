@@ -21,6 +21,7 @@
 // SOFTWARE.
 
 import Foundation
+import cruntime
 
 // https://github.com/apple/swift/blob/457fab40c598428250cd091c45a4ae3c58bc3640/stdlib/public/runtime/MetadataLookup.cpp#L1114
 @_silgen_name("swift_getFieldAt")
