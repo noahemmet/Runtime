@@ -24,6 +24,7 @@ import Foundation
 
 struct ClassMetadata: MetadataType {
     
+    typealias Layout = ClassMetadataLayout
     var type: Any.Type
     var metadata: UnsafeMutablePointer<ClassMetadataLayout>
     var typeDescriptor: UnsafeMutablePointer<ClassTypeDescriptor>

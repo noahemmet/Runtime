@@ -25,6 +25,7 @@ import Foundation
 
 struct StructMetadata: MetadataType {
     
+    typealias Layout = StructMetadataLayout
     var type: Any.Type
     var metadata: UnsafeMutablePointer<StructMetadataLayout>
     var typeDescriptor: UnsafeMutablePointer<StructTypeDescriptor>

@@ -26,6 +26,7 @@ import Foundation
 
 struct FunctionMetadata: MetadataType {
     
+    typealias Layout = FunctionMetadataLayout
     var type: Any.Type
     var metadata: UnsafeMutablePointer<FunctionMetadataLayout>
     var base: UnsafeMutablePointer<Int>

@@ -25,6 +25,7 @@ import Foundation
 
 struct TupleMetadata: MetadataType, TypeInfoConvertible {
     
+    typealias Layout = TupleMetadataLayout
     var type: Any.Type
     var metadata: UnsafeMutablePointer<TupleMetadataLayout>
     var base: UnsafeMutablePointer<Int>

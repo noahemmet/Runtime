@@ -26,6 +26,7 @@ import Foundation
 
 struct EnumMetadata: MetadataType {
     
+    typealias Layout = EnumMetadataLayout
     var type: Any.Type
     var metadata: UnsafeMutablePointer<EnumMetadataLayout>
     var typeDescriptor: UnsafeMutablePointer<StructTypeDescriptor>

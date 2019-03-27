@@ -26,6 +26,7 @@ import Foundation
 
 struct ProtocolMetadata: MetadataType {
     
+    typealias Layout = ProtocolMetadataLayout
     var type: Any.Type
     var metadata: UnsafeMutablePointer<ProtocolMetadataLayout>
     var base: UnsafeMutablePointer<Int>
